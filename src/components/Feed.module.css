@@ -1,0 +1,144 @@
+.Feed{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+.post{
+    width:90%;
+    box-shadow: 1px 1px 5px ;
+    border-radius: 10px;
+    padding: 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.post input{
+    background-color: transparent;
+    font-size:1rem;
+}
+.message img{
+    width: 3rem;
+    height: auto;
+}
+.hr{
+    background-color: rgb(101, 99, 99);
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
+}
+.post b{
+    color:rgb(37, 36, 36);
+    font-weight: 500;
+    font-size:0.9rem;
+}
+.option span{
+    font-size: 1rem;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.post button{
+    background-color: green;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+}
+.postcontent{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+/* post */
+.userpost{
+    width: 90%;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.userp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    border-radius: 0;
+    width:100%;
+    height: 100%;
+}
+.react{
+    display: flex;
+    justify-content: space-between;
+}
+.like{
+    display: flex;
+    gap: 1vw;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.user img{
+    width: 30px;
+}
+
+@media(max-width:530px){
+    .post b{
+        font-size: 2vmax;
+    }
+    .message img{
+        width: 1.5rem;
+    }
+    .post input{
+        font-size: 2vmax;
+    }
+    .post button{
+        font-size: 2vmax;
+    }
+    .postcontent{
+        padding:20px 0px ;
+    }
+    .Feed{
+        padding:10px 5px;
+    }
+    /* post */
+    .userpost{
+        font-size:2vmax;
+    }
+    .icon{
+        font-size:3vmax;
+    }
+}
+@media(max-width:375px){
+    .post{
+        width: 100%;
+    }
+    .user img{
+        width: 20px;
+        height: 20px;
+    }
+}
